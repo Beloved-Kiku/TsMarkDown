@@ -1,8 +1,8 @@
 # Typescript概述  
 
-**什么是ts**
-`ts全称为Typescript是JavaScript的超集`
-**为什么需要ts?**
+**什么是ts**</br>
+`ts全称为Typescript是JavaScript的超集`</br>
+**为什么需要ts?**</br>
 
 1. 使用ts可以让我们的项目稳定性提升。
 2. 使用ts可以对函数变量等进行类型限制降低维护成本。
