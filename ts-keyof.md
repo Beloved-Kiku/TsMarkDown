@@ -5,15 +5,15 @@
 ```ts
 //需求传入一个对象以及对象所包含的某一个key返回对应的属性值
 //js
-
-
+function Foo(obj,key){
+return obj[key]
+}
 // ts 
 function Foo(obj:object,key:string){
     return obj[key]
 }
-//上面这段代码在js中能够正确执行 但是在ts中哪怕我们不能通过编译
+//上面这段代码在js中能够正确执行 但是在ts中我们不能通过编译
 //Error:No index signature with a parameter of type 'string' was found on type '{}'.
-
 //此时我们就需要用到多个泛型对多个参数进行约束
 //因为我们是用key去匹配obj中的箭名所以我们要对泛型K进行约束与obj中的key相匹配
 interface IPerson {
