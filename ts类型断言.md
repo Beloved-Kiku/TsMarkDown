@@ -27,7 +27,7 @@ const a = document.getElementById("link") as HTMLAnchorElement;
 
 ```
 
-**双重断言**
+**双重断言.**
 >当使用者了解传入参数更具体的类型时，类型断言能按预期工作
 
 ```ts

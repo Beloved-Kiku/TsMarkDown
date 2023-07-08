@@ -1,6 +1,6 @@
 # TypeScript类型
 
-**基础声明**
+**基础类型声明.**
 
 ```ts
 const str:string = 'Beloved'
@@ -10,13 +10,13 @@ const str<string> ='Beloved'
 const num<number>=2
 ```
 
-**ts联合类型**
+**ts联合类型.**
 
 ```ts
 const gender<string|number> = '男'|1
 ```
 
-**ts中Type的基本使用**
+**ts中Type的基本使用.**
 
 >Type可以将多个类型聚合在一起重复使用
 
